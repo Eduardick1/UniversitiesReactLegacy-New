@@ -1,0 +1,133 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  color: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-size-adjust: none;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* th {
+  background-color: brown;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+td {
+  border: 1px solid brown;
+  color: brown;
+}
+tr:nth-child(even) {
+  background-color: azure;
+} */
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0.5rem;
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #ededed;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 3px #000;
+}
+button:hover {
+  background-color: #7e6863;
+  font-weight: 900;
+}
+
+table {
+  width: 80%;
+  margin: 2rem auto;
+  border: 1p solid rgb(32, 9, 123);
+  margin-bottom: 20px;
+  border-collapse: 0;
+}
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+td {
+  font-size: 20px;
+}
+
+th {
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #2d3250;
+}
+th:first-child {
+  border-radius: 1rem 0 0 0;
+}
+th:last-child {
+  border-radius: 0 1rem 0 0;
+}
+
+tr:last-child td:first-child {
+  border-radius: 0 0 0 1rem;
+}
+tr:last-child td:last-child {
+  border-radius: 0 0 1rem 0;
+}
+
+tr:nth-child(even) {
+  background-color: #213b36;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: #43766c;
+  min-height: 100dvh;
+}
